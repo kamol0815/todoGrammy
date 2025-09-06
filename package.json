@@ -1,0 +1,27 @@
+{
+  "name": "todogrammy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch & nodemon ./dist/index.js",
+    "build": "tsc ",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "dotenv": "^17.2.2",
+    "grammy": "^1.38.2",
+    "node-cron": "^4.2.1",
+    "prisma": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
